@@ -1,0 +1,16 @@
+.meni{
+    display: flex;
+    gap: 40px;
+}
+ul{
+    margin: 0;
+    padding-left: 18px;
+}
+
+body{
+    background-color: beige;
+}
+
+html{
+    font-family:'Courier New', Courier, monospace;
+}
