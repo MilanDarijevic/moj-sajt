@@ -11,7 +11,7 @@
         <h1>Gallery Caffe & Restaurant</h1>
     </header>
      <nav>
-        <a href="Početna.html">Početna</a>
+        <a href="index.html">Početna</a>
         <a href="Meni.html">Meni</a>
         <a href="Galerija.html">Galerija</a>
         <a href="Kontakt.html" class="active">Kontakt</a>
@@ -26,6 +26,18 @@
             <h4>Mobilni: +381 60 888 61 68</h4>
             <h4>Instagram stranica: <a href="https://www.instagram.com/gallerycafferestaurant/" target="_blank">@gallerycafferestaurant</a></h4>
             <h4>Nalazimo se na adresi: Bulevar Vuka Karadzica 3b, Čačak</h4>
+        </section>
+        <hr>
+        <h2 id="posaljiteUpit">Popunite kontakt formu</h2>
+        <section id="kontakt">
+            <form action="https://formspree.io/f/xqabplwb" method="POST">
+                <input type="text" class="kontakt" name="imePrezime" placeholder="Ime i prezime*"><br><br>
+                <input type="email" class="kontakt" name="email" placeholder="Email*"><br><br>
+                <input type="text" class="kontakt" name="telefon" placeholder="Telefon*"><br><br>
+                <input type="text" class="kontakt" name="tema" placeholder="Teme poruke*"><br><br>
+                <textarea class="kontakt" name="poruka" placeholder="Poruka*" cols="40" rows="10"></textarea><br>
+                <input id="posalji" type="submit" value="Pošalji">
+            </form>
         </section>
     </main>
     <footer>

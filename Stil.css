@@ -204,3 +204,39 @@ td {
         font-size: 0.9rem;
     }
 }
+#posaljiteUpit{
+    margin-top: 15px;
+}
+#kontakt{
+    margin-top: 30px;
+}
+form {
+  display: flex;
+  flex-direction:column;
+
+}
+.kontakt {
+    padding: 12px 15px;
+    margin-bottom: 5px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    font-size: 1rem;
+    transition: border-color 0.3s ease;
+}
+.kontakt:focus {
+    background-color: #e0c9a6;
+}
+#posalji {
+  background-color: #ecd1a8;
+  color: rgb(48, 46, 46);
+  border: none;
+  padding: 14px;
+  font-size: 16px;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+#posalji:hover {
+  background-color: #c1a57a;
+}
